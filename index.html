@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentação</title>
+    <!-- Link para CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Caixa de icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>Saúde</a>
+        <!-- Menu icon -->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Nav list -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Regiões</a></li>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#about">Sobre</a></li>
+        </ul>
+        <!-- Perfil -->
+        <div class="profile">
+            <img src="./img/profile.png" alt="">
+            <span>Eixo Itegrador</span>
+            <i class='bx bx-caret-down'></i>
+
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Má alimentação no Brasil</span>
+                    <h1>O índice de insegurança alimentar nacional é de 55,2%</h1>
+                    <a href="https://portal.ufpa.br/index.php/ultimas-noticias2/12611-relatorio-aponta-que-52-2-dos-brasileiros-nao-tiveram-acesso-regular-a-alimentos-de-qualidade-durante-a-pandemia-de-covid-19" class="btn">Veja aqui<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="./img/má-alimentação.jpg" alt="">
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Ser saudável custa caro</span>
+                    <h1>O custo médio de uma alimentação saudável é cinco vezes mais cara do que uma refeição com baixos nutrientes</h1>
+                    <a href="https://www.correiobraziliense.com.br/economia/2021/10/4955681-comida-saudavel-custa-5-vezes-mais-caro-diz-representante-da-fao-no-brasil.html" class="btn">Veja aqui<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="./img/saudavel_caro.png" alt="" height="310px">
+
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Brasil da fome</span>
+                    <h1>17 pessoas morrem de desnutrição todos os dias no país</h1>
+                    <a href="https://observatorio3setor.org.br/noticias/brasil-da-fome-17-pessoas-morrem-de-desnutricao-todos-os-dias-no-pais/" class="btn">Veja aqui<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="./img/mortes.jpg" alt="">
+
+            </div>
+             <!-- Slide 4 -->
+             <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Desperdicio de alimentos</span>
+                    <h1>No Brasil, 27 milhões de toneladas de alimentos são desperdiçadas em média a cada ano</h1>
+                    <a href="https://alavoura.com.br/colunas/panorama/desperdicio-de-alimentos-ainda-e-um-desafio-para-o-brasil/#:~:text=No%20Brasil%2C%2027%20milhões%20de,conta%20toda%20a%20cadeia%20alimentar." class="btn">Veja aqui<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="./img/desperdicio.jpg" alt="" height="370px">
+
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Fome nas<br> <span>Regiões do Brasil</span></h1>
+        </div>
+        <!-- Container content -->
+        <div class="categories-container">
+            <!-- Box 1 -->
+            <div class="box box1">
+                <img src="./img/norte.jpg" alt="">
+                <h2>Norte</h2>
+                <span>25,7%</span>
+                <a href="https://www.cut.org.br/noticias/fome-atinge-mais-o-norte-e-o-nordeste-em-alagoas-chega-a-36-7-das-familias-2033#:~:text=No%20Norte%20é%20ainda%20maior,Nordeste%20atinge%2017%2C4%25."> <i class='bx bx-right-arrow-alt'></i></a>  
+            </div>
+            <!-- Box 2 -->
+            <div class="box box2">
+                <img src="./img/nordeste.jpg" alt="">
+                <h2>Nordeste</h2>
+                <span>21%</span>
+                <a href="https://www.cut.org.br/noticias/fome-atinge-mais-o-norte-e-o-nordeste-em-alagoas-chega-a-36-7-das-familias-2033#:~:text=A%20média%20regional%20no%20Nordeste,também%20é%20maior%20nessas%20regiões."> <i class='bx bx-right-arrow-alt'></i></a>  
+            </div>
+            <!-- Box 3 -->
+            <div class="box box3">
+                <img src="./img/sudeste.jpg" alt="">
+                <h2>Sudeste</h2>
+                <span>13,1%</span>
+                <a href="https://www.bbc.com/portuguese/brasil-62897802#:~:text=Sudeste%20tem%20maior%20número%20de%20pessoas%20com%20fome&text=Por%20fim%2C%20o%20relatório%20afirma,%2C9%25%20no%20Sul)."> <i class='bx bx-right-arrow-alt'></i></a>  
+            </div>
+            <!-- Box 4 -->
+            <div class="box box4">
+                <img src="./img/sul.jpg" alt="">
+                <h2>Sul
+                </h2>
+                <span>9,9%</span>
+                <a href="https://www.bbc.com/portuguese/brasil-62897802#:~:text=Sudeste%20tem%20maior%20número%20de%20pessoas%20com%20fome&text=Por%20fim%2C%20o%20relatório%20afirma,%2C9%25%20no%20Sul)."> <i class='bx bx-right-arrow-alt'></i></a>  
+            </div>
+            <!-- Box 5 -->
+            <div class="box box5">
+                <img src="./img/centro-oeste.jpg" alt="">
+                <h2>Centro-este</h2>
+                <span>12,9%</span>
+                <a href="https://www.bbc.com/portuguese/brasil-62897802#:~:text=Sudeste%20tem%20maior%20número%20de%20pessoas%20com%20fome&text=Por%20fim%2C%20o%20relatório%20afirma,%2C9%25%20no%20Sul)."> <i class='bx bx-right-arrow-alt'></i></a>  
+            </div>
+        </div>
+    </section>
+    <!-- products -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Alimentos<br> <span>Saudáveis e baratos</span></h1>
+        </div>
+        <!--product content -->
+        <div class="products-conatiner">
+            <!-- box 1 -->
+            <div class="box">
+                <img src="./img/ovo.png" alt="">
+                <span>Ovo</span>
+                <h2>Ricos em proteína e<br>pouco calóricos</h2>
+                <a href="https://www.deliveryfort.com.br/ovo-caipira-ares-campo-extra-com-20-unidades/p?idsku=2745615&origin=autocomplete"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>   
+            </div>
+            <!-- box 2 -->
+            <div class="box">
+                <img src="./img/batata-doce.png" alt="">
+                <span>Batata doce</span>
+                <h2>É rico em cálcio, fibras,<br>potássio, vitaminas A e C</h2>
+                <a href="https://www.deliveryfort.com.br/batata-doce-kg/p?idsku=631671"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>
+            </div>
+            <!-- box 3 -->
+            <div class="box">
+                <img src="./img/banana.png" alt="">
+                <span>Banana</span>
+                <h2>É rica em potássio importante para as células</h2>
+                <a href="https://www.deliveryfort.com.br/banana-caturra-kg/p?idsku=712256&origin=autocomplete"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>
+            </div>
+            <!-- box 4 -->
+            <div class="box">
+                <img src="./img/tomate.png" alt="">
+                <span>Tomate</span>
+                <h2>Contêm antioxidantes e vitaminas A e C</h2>
+                <a href="https://www.superjose.com.br/p/Tomate-Kg-1?srsltid=AYJSbAdg9DAPeaXPRNOdYN0OcCnYIZ-KKVwA0uWiVqK6uZjYaw10XC6RSgk"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>
+            </div>
+            <!-- box 5 -->
+            <div class="box">
+                <img src="./img/atum.png" alt="">
+                <span>Atum enlatado</span>
+                <h2>É uma rica fonte de minerais e vitaminas</h2>
+                <a href="https://www.deliveryfort.com.br/atum-88-ralado-em-oleo-140g/p?idsku=2336227&origin=autocomplete"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>
+            </div>
+            <!-- box 6 -->
+            <div class="box">
+                <img src="./img/alface.png" alt="">
+                <span>Alface</span>
+                <h2>É rica em fibras e tem efeito calmante no organismo</h2>
+                <a href="https://www.angeloni.com.br/super/p/alface-crespa-a-granel-unidade-3889210?gclid=googleshopping&pStoreId=14"> <i class='bx bx-cart-alt'></i></a>
+                <i class='bx bx-heart'></i>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <img src="./img/inseguranca-alimentar.webp" alt="">
+        <div class="about-text">
+            <span>Sobre</span>
+            <p>A insegurança alimentar ocorre quando uma pessoa (ou família) não possui acesso a alimentos saudáveis e que sejam 
+            suficientes para satisfazer as suas necessidades.
+            </p>
+            <p>Suas causas são diversas: escassez de alimentos, problemas de abastecimento, produção insuficiente, perda 
+                de fonte de renda (desemprego), pobreza, preços elevados, mudanças climáticas.
+            </p>
+            <p>Problemas de saúde física e mental, deterioração da qualidade de vida e a fome são consequências da 
+                insegurança alimentar.
+            </p>
+            <a href="https://brasilescola.uol.com.br/geografia/inseguranca-alimentar.htm#:~:text=Suas%20causas%20são%20diversas%3A%20escassez,%2C%20preços%20elevados%2C%20mudanças%20climáticas." class="btn">Ver mais<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+    </section>
+    <!-- customers -->
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-basket'></i>Eixo</a>
+            <p>Em 2022, o Segundo Inquérito Nacional<br>sobre Insegurança Alimentar no Contexto<br>da Pandemia de Covid-19 no Brasil<br>apontou que 33,1 milhões de pessoas não<br>têm garantido o que comer</p>
+           
+        </div>
+        <div class="footer-box">
+            <h2>Links</h2>
+            <a href="https://mundoeducacao.uol.com.br/geografia/fome-no-brasil.htm">fome</a>
+            <a href="https://g1.globo.com/profissao-reporter/noticia/2022/02/24/brasil-desperdica-cerca-de-27-milhoes-de-toneladas-de-alimentos-por-ano-60percent-vem-do-consumo-de-familias.ghtml">desperdicio</a>
+            <a href="https://brasilescola.uol.com.br/saude-na-escola/o-que-sao-alimentos-saudaveis.htm">alimentos saúdaveis</a>
+        </div>
+       
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Eixo integrador</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link to css -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
